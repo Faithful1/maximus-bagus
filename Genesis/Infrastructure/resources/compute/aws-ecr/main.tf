@@ -1,4 +1,3 @@
-# Create ECR repository resource
 resource "aws_ecr_repository" "this" {
   name                 = var.genesis_repository_name
   image_tag_mutability = "MUTABLE"
